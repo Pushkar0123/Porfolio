@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3711b80e4c.js" crossorigin="anonymous"></script> 
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">contact</a></li>
+                <li><i class="fas fa-times" onclick="closemenu()"></i></li>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Web Developer</p>
+            <h1>Hi, I'm <span>Pushkar</span><br>Raj From India</h1>
+        </div>
+    </div>
+</div>
+<!-- ---------------About-------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/userbg.png" >
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hello! I'm Pushkar raj, a dedicated web developer with a passion for crafting intuitive and engaging digital experiences.
+                With 2 years of experience in both front-end and back-end development, I have honed my skills in HTML, CSS, JavaScript, 
+                and frameworks like ReactJs and Bootstrap. I thrive in collaborative environments and enjoy working closely with designers 
+                and other developers to bring creative visions to life.My expertise extends to server-side technologies such as Node.js, 
+                Express, and database management with MongoDB and SQL. I am adept at creating seamless user experiences, optimizing performance, 
+                and ensuring accessibility across all devices.
+                    
+                Beyond coding, I am a continuous learner, always staying updated with the latest industry trends and best practices.
+                I actively participate in coding communities and contribute to open-source projects, believing in the power of collaboration and shared knowledge.
+                    
+                When I'm not immersed in code, I enjoy exploring new technologies, cricket and solo riding. Let's connect and discuss how we can build something amazing together
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web Development</span><br>Web app Development</li>
+                        <li><span>Web UI/UX</span><br>Designing Web/App interfaces</li>
+                        <li><span>Web App Deveopment</span><br>Designing Web/App interfaces</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023-2024</span><br>1-> Design lead at GFG Club</li>
+                        <li>2-> Making a MAJORPROJECT name as TOURFIX</li>
+                        <li>3-> Intership at Codesoft</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2021</span><br>Schooling from P.C.S in Patna</li>
+                        <li><span>2022-2026</span><br>Currently persuring B.Tech in CSE</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------------Services------------------ -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-titles">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Web Design</h2>
+                <br>
+                <p>Tourfix, the ultimate destination for discovering
+                and booking the finest hotels around the world. 
+                Our platform is designed to provide travelers with 
+                seamless access to luxurious and unique accommodations, 
+                making every journey memorable.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i  class="fas fa-crop-alt"></i>
+                <h2>UI/Ux Design</h2>
+                <br>
+                <p>As the Head of Design at Canva, I oversee the creative vision and 
+                    direction of our platform, ensuring that every visual element 
+                    resonates with our users' needs and aspirations. My role involves 
+                    leading a talented team of designers, fostering innovation, and 
+                    maintaining the highest standards of design excellence.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>App Design</h2>
+                <br>
+                <p>i am specialize in creating intuitive and visually 
+                    stunning app designs that captivate users and drive engagement.
+                    Our team of expert designers is dedicated to transforming your 
+                    ideas into seamless digital experiences.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -------------portfolio------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/tourfix.jpeg">
+                <div class="layer">
+                    <h3>Tourfix</h3>
+                    <p>Destination for discovering
+                        and booking the finest hotels around the world. 
+                        Our platform is designed to provide travelers with 
+                        seamless access to luxurious and unique accommodations.</p>
+                    <a href="https://github.com/Pushkar0123?tab=repositories"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/calculator.jpeg">
+                <div class="layer">
+                    <h3>Calculator</h3>
+                    <p>Our Web Calculator is a powerful, user-friendly tool designed to 
+                        handle a wide range of calculations directly from your browser. 
+                        Whether you need basic arithmetic, scientific calculations, or specialized 
+                        functions, our web calculator provides an efficient solution</p>
+                    <a href="https://github.com/Pushkar0123?tab=repositories"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/canva.jpeg">
+                <div class="layer">
+                    <h3>Canva Design</h3>
+                    <p>I specialize in creating visually compelling designs that communicate 
+                        messages effectively and beautifully. Leveraging Canva’s powerful 
+                        and user-friendly platform, I bring ideas to life with creativity and 
+                        precision.</p>
+                    <a href="https://github.com/Pushkar0123?tab=repositories"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- -------------contact---------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> iampushkar0123@gmail.com</p>
+                <P><i class=" fas fa-phone-square-alt"></i>6200020214</P>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100015053626465&mibextid=ZbWKwL"><i class="fab fa-facebook"></i></a>
+                    <a href="https://x.com/Pushkar_rajput0?s=09"><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/pushkar_raj_put?igsh=MXc2Y20yNXBocTNoNQ=="><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/pushkar-raj-99573724a"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copy-right">
+        <p>Copyright @ Pushkar <i class="fas fa-heart"> </i> Web deveoper</p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks) {
+            tablink.classList.remove("active-link");
+            // classList is used to manipulate the CSS classes
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
